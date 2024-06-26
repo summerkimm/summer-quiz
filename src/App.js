@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
-import CommonLayout from "./CommonLayout";
+import CommonLayout from "./components/CommonLayout";
 import MainPage from "./components/pages/MainPage.jsx";
 import QuizPage from "./components/pages/QuizPage.jsx";
 
