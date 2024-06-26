@@ -1,0 +1,42 @@
+:root {
+  --color-purple: #cac4fb;
+  --color-pink: #FFA6B5;
+  --color-green: #9df9b1;
+  --color-yellow: #f8c664;
+  --color-orange: #e1744f;
+  --color-black: #1c1c1c;
+  --color-gray: #cececc;
+  --color-white: #ffffff;
+  --bg-pink: #efcfdd;
+}
+
+@font-face {
+  font-family: "DungGeunMo";
+  src: url("./styles/fonts/DungGeunMo.woff") format("woff"),
+    url("./styles/fonts/DungGeunMo.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: "DungGeunMo";
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-pink);
+}
+
+button {
+  border: none;
+}
+
+a {
+  color: var(--color-black);
+  text-decoration: none;
+  outline: none;
+}
