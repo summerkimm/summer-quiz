@@ -1,17 +1,6 @@
-.start-button {
-  width: 120px;
-  padding: 8px 16px;
-  background: var(--color-green);
-  border-radius: 8px;
-  text-align: center;
-  font-size: 24px;
-  color: var(--color-black);
-  cursor: pointer;
-}
-
 .main {
   width: 100%;
-  height: auto;
+  height: 280px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -27,4 +16,15 @@
 .name {
   color: var(--color-orange);
   font-size: 24px;
+}
+
+.start-button {
+  width: 120px;
+  padding: 8px 16px;
+  background: var(--color-green);
+  border-radius: 8px;
+  text-align: center;
+  font-size: 24px;
+  color: var(--color-black);
+  cursor: pointer;
 }

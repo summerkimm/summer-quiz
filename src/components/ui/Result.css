@@ -12,7 +12,7 @@
   align-items: center;
   flex-direction: column;
   gap: 16px;
-  padding: 16px;
+  padding: 24px;
   border-radius: 20px;
   background: var(--color-green)
 }

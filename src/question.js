@@ -5,9 +5,10 @@ export const questions = [
     correctAnswer: "O",
   },
   {
-    question: "김소은이 가장 좋아하는 색은 노란색이다.",
-    type: "OX",
-    correctAnswer: "X",
+    question: "김소은이 가장 싫어하는 야채는?.",
+    type: "MC",
+    options: ["감자", "오이"],
+    correctAnswer: "감자",
   },
   {
     question: "김소은의 현재 아이폰 기종은 13 mini이다. ",
@@ -46,6 +47,6 @@ export const questions = [
     question: "김소은의 이름을 중국어로 발음하면?",
     type: "MC",
     options: ["수어인", "소인", "샤오인"],
-    correctAnswer: "강아지",
+    correctAnswer: "수어인",
   },
 ];
