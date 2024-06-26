@@ -2,9 +2,9 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "../../App.css";
 import { questions } from "../../question";
-import Result from "../Result";
 import MCQuiz from "../quiz/MCQuiz";
 import OXQuiz from "../quiz/OXQuiz";
+import Result from "../ui/Result";
 
 function QuizPage() {
   const [currentQuestion, setCurrentQuestion] = useState(0);
