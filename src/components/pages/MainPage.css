@@ -19,7 +19,12 @@
   gap: 32px;
 }
 
+.main-text {
+  font-size: 18px;
+  margin: 16px 0;
+}
+
 .name {
   color: var(--color-orange);
-  font-size: 18px;
+  font-size: 24px;
 }
