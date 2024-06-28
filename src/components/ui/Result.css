@@ -15,6 +15,7 @@
   padding: 24px;
   border-radius: 20px;
   background: var(--color-green);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
 }
 
 .result-text {
