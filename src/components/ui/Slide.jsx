@@ -2,7 +2,7 @@ import { useState } from "react";
 import { IMAGES } from "../../images";
 import "./Slide.css";
 
-function Slide() {
+function ImageSlide() {
   const [animate, setAnimate] = useState(true);
   const onStop = () => setAnimate(false);
   const onRun = () => setAnimate(true);
@@ -28,4 +28,4 @@ function Slide() {
     </div>
   );
 }
-export default Slide;
+export default ImageSlide;
