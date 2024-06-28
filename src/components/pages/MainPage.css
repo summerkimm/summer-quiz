@@ -35,6 +35,12 @@
   transition: top 0.01s linear;
 }
 
+.start-button:hover {
+  box-shadow: 0 0 0 1px #92fea9 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset,
+    0 4px 0 0 rgb(146, 254, 169, 0.7), 0 4px 0 1px rgba(0, 0, 0, 0.1),
+    0 4px 3px 1px rgba(0, 0, 0, 0.5);
+}
+
 .start-button:active {
   box-shadow: 0 0 0 1px #92fea9 inset, 0 0 0 2px rgba(255, 255, 255, 0.5) inset,
     0 0 0 1px rgba(0, 0, 0, 0.4);
