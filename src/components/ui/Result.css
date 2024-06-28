@@ -14,7 +14,7 @@
   gap: 16px;
   padding: 24px;
   border-radius: 20px;
-  background: var(--color-green)
+  background: var(--color-green);
 }
 
 .result-text {
@@ -35,5 +35,15 @@
   font-size: 24px;
   color: var(--color-white);
   cursor: pointer;
+  transition: all 0.5s;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 0 1px #e36e46 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset,
+    0 8px 0 0 rgba(227, 109, 70, 0.7), 0 8px 0 1px rgba(0, 0, 0, 0.1),
+    0 8px 8px 1px rgba(0, 0, 0, 0.5);
+  transition: top 0.01s linear;
 }
 
+.result-button:active {
+  box-shadow: 0 0 0 1px #e36e46 inset, 0 0 0 2px rgba(255, 255, 255, 0.5) inset,
+    0 0 0 1px rgba(0, 0, 0, 0.4);
+}
